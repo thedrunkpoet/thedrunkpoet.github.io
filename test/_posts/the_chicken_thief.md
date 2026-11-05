@@ -1,4 +1,0 @@
-## The Chicken Thief
-
-
-rkjhrlkfdjlkdsjfgdslkjgdflkgfjdflkgjfd

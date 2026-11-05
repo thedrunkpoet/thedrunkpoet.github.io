@@ -1,0 +1,21 @@
+<div class="split">
+<aside class="side">
+<p class="side-h">entries</p>
+<ul>
+<!--sideitem-->
+<li{{current}}><a href="{{url}}"><time>{{date_iso}}</time><span>{{title}}</span></a></li>
+<!--/sideitem-->
+</ul>
+</aside>
+<article>
+<header class="ehead">
+<h1>{{title}}</h1>
+<p class="meta"><time datetime="{{date_iso}}">{{date_iso}}</time> / {{reading}}<!--mood--> / {{mood}}<!--/mood--></p>
+</header>
+<div class="prose">{{body}}</div>
+<nav class="pn">
+<!--newer--><a class="n" href="{{url}}">&larr; {{title}}</a><!--/newer-->
+<!--older--><a class="o" href="{{url}}">{{title}} &rarr;</a><!--/older-->
+</nav>
+</article>
+</div>
